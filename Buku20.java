@@ -16,7 +16,7 @@ void tampilInformasi () {
             stok -= jml;
             System.out.println("Buku terjual: " + jml);
         } else {
-            System.out.println("Stok tidak cukup! Hanya " + stok + " buku yang terjual.");
+            System.out.println("Stok tidak cukup. Hanya " + stok + " buku yang terjual.");
         }
     }
     
@@ -27,7 +27,4 @@ void tampilInformasi () {
 void gantiHarga(int hrg) {
     
 }
-    public static void main(String[] args) {
-        
-    }
-}
+   
